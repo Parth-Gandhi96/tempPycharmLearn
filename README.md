@@ -7,7 +7,8 @@
 * Parthkumar Gandhi
 
 ## CheckList
-- [ ] HomePage (Intenet).
+- [ ] HomePage
+	- [X] navigation Bar added to all pages
 	- [ ] Add "carousel slide" for each page in website
 	- [ ] Brief Intro add the last
 - [ ] Team Page
@@ -17,7 +18,8 @@
 	- [ ] Explain that this is part of assignment
 	- [ ] Resource (Add the sources used for info as well as development part)
 - [ ] The Invention of Internet | Browser wars | Internet Search | Dot Com Bubble | People | History of Internet
-	- [ ] Add the content from video
+	- [X] Selected page should get highlighted in navbar
+  	- [ ] Add the content from video
 	- [ ] Add the video (to stream on the page only : "Embeds")
     - [ ] Special references, more information about the relevant topic
     - [ ] Interesting facts and figures for related page
