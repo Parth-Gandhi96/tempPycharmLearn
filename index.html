@@ -10,6 +10,17 @@
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <title>History of Internet</title>
+    <style>
+        .myStyle {
+            width: 70rem;
+            height: 35rem;
+        }
+
+        .myImgStyle {
+            width: 70rem;
+            height: 35rem;
+        }
+    </style>
 </head>
 <body>
 <header class="bg-light mb-4">
@@ -22,15 +33,16 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav nav-pills me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <ul class="navbar-nav nav-pills me-auto my-2 my-lg-0 navbar-nav-scroll"
+                        style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link p-2 active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mainPages/team.html">Team</a>
+                            <a class="nav-link p-2 " href="mainPages/team.html">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mainPages/about.html">About</a>
+                            <a class="nav-link p-2 " href="mainPages/about.html">About</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
@@ -56,6 +68,92 @@
         </nav>
     </div>
 </header>
+
+<div class="container">
+    <div id="carouselExampleCaptions" class="carousel carousel-dark slide myStyle" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner myStyle">
+            <div class="carousel-item active">
+                <a href="pages/the_invention_of_internet.html">
+                    <img src="images/invention_of_internet.jpg" class="d-block w-100 myImgStyle" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: #87CEEB;">
+                        <h5>The Invention of Internet</h5>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="pages/browser_wars.html">
+                    <img src="images/browser_wars.png" class="d-block w-100 myImgStyle" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: #87CEEB;">
+                        <h5>Browser Wars</h5>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="pages/internet_search.html">
+                    <img src="images/internet_search.jpeg" class="d-block w-100 myImgStyle" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: #87CEEB;">
+                        <h5>Internet Search</h5>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="pages/dot_com_bubble.html">
+                    <img src="images/dot_com_bubble.jpg" class="d-block w-100 myImgStyle" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: #87CEEB;">
+                        <h5>Dot Com Bubble</h5>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="pages/people.html">
+                    <img src="images/people_invovled_internet.jpg" class="d-block w-100 myImgStyle" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: #87CEEB;">
+                        <h5>People involved in history of internet</h5>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="pages/history_of_internet.html">
+                    <img src="images/internet_logo.jpg" class="d-block w-100 myImgStyle" alt="...">
+                    <div class="carousel-caption d-none d-md-block" style="background-color: #87CEEB;">
+                        <h5>History of Internet</h5>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
 
 <!-- Optional JavaScript; choose one of the two! -->
 
