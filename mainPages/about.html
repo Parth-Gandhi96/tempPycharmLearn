@@ -14,49 +14,43 @@
 <body>
 <header class="bg-light mb-4">
     <div class="container">
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Internet</a>
-
-                <a class="navbar-brand" href="team.html">Team</a>
-
-                <a class="navbar-brand" href="about.html"><strong>About</strong></a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav nav-pills me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Menu
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="../pages/the_invention_of_internet.html">The Invention
-                                    of Internet</a></li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="../pages/the_invention_of_internet.html">The
+                                    Invention of Internet</a></li>
                                 <li><a class="dropdown-item" href="../pages/browser_wars.html">Browser Wars</a></li>
-                                <li><a class="dropdown-item" href="../pages/internet_search.html">Internet Search</a></li>
+                                <li><a class="dropdown-item" href="../pages/internet_search.html">Internet Search</a>
+                                </li>
                                 <li><a class="dropdown-item" href="../pages/dot_com_bubble.html">Dot Com Bubble</a></li>
                                 <li><a class="dropdown-item" href="../pages/people.html">People involved</a></li>
 
-                                <li><a class="dropdown-item" href="../pages/history_of_internet.html">History of Internet</a></li>
-
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="../index.html">Home Page</a></li>
+                                <li><a class="dropdown-item" href="../pages/history_of_internet.html">History of
+                                    Internet </a></li>
                             </ul>
                         </li>
                     </ul>
-                    <!--                    <form class="d-flex">-->
-                    <!--                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
-                    <!--                        <button class="btn btn-outline-success" type="submit">Search</button>-->
-                    <!--                    </form>-->
                 </div>
             </div>
         </nav>
