@@ -9,11 +9,13 @@
 ## CheckList
 - [ ] HomePage
 	- [X] navigation Bar added to all pages
-	- [ ] Add "carousel slide" for each page in website
+	- [X] Added Footer for every pages
+	- [X] Add "carousel slide" for each page in website
 	- [ ] Brief Intro add the last
 - [ ] Team Page
-	- [ ] Cards with image and little intro of members
-	- [ ] Linkedin and GitHub URL
+	- [X] Cards with image and little intro of members
+	- [X] Linkedin and GitHub URL
+	- [ ] Real images
 - [ ] About
 	- [ ] Explain that this is part of assignment
 	- [ ] Resource (Add the sources used for info as well as development part)
