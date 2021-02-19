@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -20,7 +22,19 @@
             width: 70rem;
             height: 35rem;
         }
+        .blog-footer {
+          padding: 2rem 0;
+          color: #999;
+          text-align: center;
+          background-color: #f9f9f9;
+          border-top: .025rem solid #e5e5e5;
+        }
+        .blog-footer p:last-child {
+          margin-bottom: 0;
+        }
     </style>
+
+
 </head>
 <body>
 <header class="bg-light mb-4">
@@ -155,12 +169,35 @@
     </div>
 </div>
 
+
+    <footer class="blog-footer mt-lg-5">
+      <p>More about the history of Internet can be found at <a href="https://en.wikipedia.org/wiki/History_of_the_Internet/">Wikipedia</a></p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
 <!-- Optional JavaScript; choose one of the two! -->
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      Holder.addTheme('thumb', {
+        bg: '#55595c',
+        fg: '#eceeef',
+        text: 'Thumbnail'
+      });
+    </script>
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->
 <!--
