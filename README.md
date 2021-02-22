@@ -16,12 +16,13 @@
 	- [X] Cards with image and little intro of members
 	- [X] Linkedin and GitHub URL
 	- [ ] Real images
-- [ ] About
-	- [ ] Explain that this is part of assignment
-	- [ ] Resource (Add the sources used for info as well as development part)
+- [X] About
+	- [X] Explain that this is part of assignment
+	- [X] Resource (Add the sources used for info as well as development part)
 - [ ] The Invention of Internet | Browser wars | Internet Search | Dot Com Bubble | People | History of Internet
 	- [X] Selected page should get highlighted in navbar
 	- [X] Add the content from video
+	- [X] Add relavent images
 	- [ ] Add the video (to stream on the page only : "Embeds")
     - [ ] Special references, more information about the relevant topic
     - [ ] Interesting facts and figures for related page
